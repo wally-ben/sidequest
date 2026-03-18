@@ -3,26 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sidequest is a Hack Club YSWS in the making where Adventurers build real projects, earn coins, and level up.">
+<meta name="theme-color" content="#f5edd8">
+<meta property="og:title" content="Sidequest - Hack Club YSWS in the Making">
+<meta property="og:description" content="Build real projects, help people, and level up. RSVP to help Sidequest happen.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="social-preview.svg">
+<meta property="og:image:alt" content="Sidequest preview card with RSVP call-to-action">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sidequest - Hack Club YSWS in the Making">
+<meta name="twitter:description" content="Build real projects, help people, and level up. RSVP to help Sidequest happen.">
+<meta name="twitter:image" content="social-preview.svg">
 <title>Sidequest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="banner" href="https://hackclub.com/">
+  <a class="banner" href="https://hackclub.com/" target="_blank" rel="noopener noreferrer">
     <img src="https://contribute.hackclub.com/images/flag-orpheus-top.png"
     alt="Dinosaur arm holding flag that reads 'Hack Club'">
   </a>
-<div class="card">
+
+<main class="layout" aria-label="Sidequest landing page">
+<section class="card" aria-labelledby="site-title">
   <div class="corner tl"></div>
   <div class="corner tr"></div>
   <div class="corner bl"></div>
   <div class="corner br"></div>
 
-  <div class="header">
-    <div class="eyebrow">A Hack Club YSWS in the Making</div>
-    <div class="name">Side<span>quest</span></div>
-    <div class="tagline">Build things. Help people. Level up.</div>
-  </div>
+  <header class="header">
+    <p class="eyebrow">A Hack Club YSWS in the Making</p>
+    <h1 class="name" id="site-title">Side<span>quest</span></h1>
+    <p class="tagline">Build things. Help people. Level up.</p>
+  </header>
 
   <div class="divider">
     <div class="divider-line"></div>
@@ -44,12 +59,12 @@
   <div class="roles">
     <div class="role">
       <span class="role-icon">📜</span>
-      <div class="role-name">Quest Giver</div>
+      <h2 class="role-name">Quest Giver</h2>
       <div class="role-desc">Need something built? Post a quest, get your project for free.</div>
     </div>
     <div class="role">
       <span class="role-icon">⚔️</span>
-      <div class="role-name">Adventurer</div>
+      <h2 class="role-name">Adventurer</h2>
       <div class="role-desc">Accept quests, build projects, earn coins.</div>
     </div>
   </div>
@@ -60,7 +75,7 @@
 
   <div class="cta">
     <div class="cta-label">Interested?</div>
-    <a class="cta-btn" href="https://sidequest.fillout.com/t/2mPyJMeipNus">⚔ &nbsp; RSVP</a>
+    <a class="cta-btn" href="https://sidequest.fillout.com/t/2mPyJMeipNus">⚔ &nbsp; RSVP Now</a>
   </div>
 
   <div class="footer">
@@ -68,67 +83,100 @@
     <div class="footer-text">Sidequest</div>
     <div class="footer-line"></div>
   </div>
-</div>
+</section>
 
-<div class="faq">
+<section class="faq" aria-labelledby="faq-title">
   <div class="faq-header">
     <div class="divider">
       <div class="divider-line"></div>
       <div class="divider-icon">📜</div>
       <div class="divider-line"></div>
     </div>
-    <div class="faq-title">Frequently Asked Questions</div>
+    <h2 class="faq-title" id="faq-title">Frequently Asked Questions</h2>
   </div>
 
-  <div class="faq-item">
-    <div class="faq-q">Is this a YSWS?</div>
-    <div class="faq-a">This is a YSWS in the making! We don't have a sponsor yet but we will if you RSVP! </div>
-  </div>
-
-  <div class="faq-item">
-    <div class="faq-q">What are Adventurers?</div>
-    <div class="faq-a">Adventurers are HackClubers that choose to make projects for coins. They can accept quests from the questboard and earn coins as a reward for completing them.</div>
-    <div class="faq-a">They can join guilds, do side quests, spend coins in the shop, and reach higher tiers!</div>
-  </div>
-
-  <div class="faq-item">
-    <div class="faq-q">What are Quest Givers?</div>
-    <div class="faq-a">Quest Givers are HackClubers that choose to give quests (aka commissions) and review other quests.</div>
-    <div class="faq-a">Quest Givers can request things ranging from a portfolio website for their art, to a fully functioning website for their side hustle.</div>
-    <div class="faq-a">After their quest is fulfilled, Quest Givers get their project for free. In exchange, they'll have to review a few quests themselves. (Number of quests tbd)</div>
-  </div>
-
-  <div class="faq-item">
-    <div class="faq-q">What can we buy from the shop?</div>
-    <div class="faq-a">The shop will have a wide collection of rewards ranging from Hack Club stickers to laptops and 3D printers!</div>
-  </div>
-
-  <div class="faq-item">
-    <div class="faq-q">What are Guilds?</div>
-    <div class="faq-a">Guilds are Hack Clubs! If you're a Hack Club leader you can make a guild, and if you're part of a Hack Club you can join one.</div>
-    <div class="faq-a">Guild members get access to an exclusive part of the shop, but a small cut of their payout is taken as a fee. Guild Masters receive those fees in the Guild's balance, which can only be spent in a special shop with equipment for their club.</div>
-  </div>
-
-  <div class="faq-item">
-    <div class="faq-q">What are Side Quests?</div>
-    <div class="faq-a">Are you a beginner? Good news! You can still be an Adventurer. Side Quests are preset quests made for beginners.</div>
-    <div class="faq-sub">
-      <div class="faq-sub-title">Orph Quests</div>
-      <div class="faq-a">Side quests given by Orpheus! Each one comes with a beginner guide and rewards a set amount of coins. No time tracking needed.</div>
+  <details class="faq-item" open>
+    <summary class="faq-q">Is this a YSWS?</summary>
+    <div class="faq-content">
+      <p class="faq-a">This is a YSWS in the making! We don't have a sponsor yet, but we will if you RSVP.</p>
     </div>
-    <div class="faq-sub">
-      <div class="faq-sub-title">Hack Quests</div>
-      <div class="faq-a">YSWSs in disguise. We'll feature YSWSs like Boba Drops as Hack Quests on the questboard!</div>
-      <div class="faq-a">All restrictions from the original YSWSs apply. For example, if Boba Drops allows one submission per person, that limit still applies here.</div>
-      <div class="faq-a">Hack Quests do not reward coins. They reward the same prizes as the original YSWSs. This is simply a way of featuring them on the questboard.</div>
-    </div>
-  </div>
+  </details>
 
-  <div class="faq-item">
-    <div class="faq-q">What are Tiers?</div>
-    <div class="faq-a">Adventurers can level up to higher tiers by completing quests. Higher tiers unlock access to more items in the shop.</div>
-  </div>
+  <details class="faq-item">
+    <summary class="faq-q">What are Adventurers?</summary>
+    <div class="faq-content">
+      <p class="faq-a">Adventurers are Hack Clubbers who choose to make projects for coins. They can accept quests from the questboard and earn coins as a reward for completing them.</p>
+      <p class="faq-a">They can join guilds, do side quests, spend coins in the shop, and reach higher tiers.</p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-q">What are Quest Givers?</summary>
+    <div class="faq-content">
+      <p class="faq-a">Quest Givers are Hack Clubbers who choose to post quests (aka commissions) and review other quests.</p>
+      <p class="faq-a">Quest Givers can request things ranging from a portfolio website for their art to a fully functioning website for their side hustle.</p>
+      <p class="faq-a">After their quest is fulfilled, Quest Givers get their project for free. In exchange, they'll review a few quests themselves. (Number of quests TBD)</p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-q">What can we buy from the shop?</summary>
+    <div class="faq-content">
+      <p class="faq-a">The shop will have a wide collection of rewards ranging from Hack Club stickers to laptops and 3D printers.</p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-q">What are Guilds?</summary>
+    <div class="faq-content">
+      <p class="faq-a">Guilds are Hack Clubs. If you're a Hack Club leader you can make a guild, and if you're part of a Hack Club you can join one.</p>
+      <p class="faq-a">Guild members get access to an exclusive part of the shop, but a small cut of their payout is taken as a fee. Guild Masters receive those fees in the Guild's balance, which can only be spent in a special shop with equipment for their club.</p>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-q">What are Side Quests?</summary>
+    <div class="faq-content">
+      <p class="faq-a">Are you a beginner? Good news. You can still be an Adventurer. Side Quests are preset quests made for beginners.</p>
+      <div class="faq-sub">
+        <h4 class="faq-sub-title">Orph Quests</h4>
+        <p class="faq-a">Side quests given by Orpheus. Each one comes with a beginner guide and rewards a set amount of coins. No time tracking needed.</p>
+      </div>
+      <div class="faq-sub">
+        <h4 class="faq-sub-title">Hack Quests</h4>
+        <p class="faq-a">YSWSs in disguise. We'll feature YSWSs like Boba Drops as Hack Quests on the questboard.</p>
+        <p class="faq-a">All restrictions from the original YSWSs apply. For example, if Boba Drops allows one submission per person, that limit still applies here.</p>
+        <p class="faq-a">Hack Quests do not reward coins. They reward the same prizes as the original YSWSs. This is simply a way of featuring them on the questboard.</p>
+      </div>
+    </div>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-q">What are Tiers?</summary>
+    <div class="faq-content">
+      <p class="faq-a">Adventurers can level up to higher tiers by completing quests. Higher tiers unlock access to more items in the shop.</p>
+    </div>
+  </details>
+
+</section>
+</main>
+
+<div class="mobile-rsvp" aria-label="Mobile RSVP bar">
+  <a class="mobile-rsvp-btn" href="https://sidequest.fillout.com/t/2mPyJMeipNus">⚔ &nbsp; RSVP Now</a>
 </div>
+
+<script>
+  const faqItems = Array.from(document.querySelectorAll('.faq .faq-item'));
+
+  faqItems.forEach((item) => {
+    item.addEventListener('toggle', () => {
+      if (!item.open) return;
+      faqItems.forEach((otherItem) => {
+        if (otherItem !== item) otherItem.open = false;
+      });
+    });
+  });
+</script>
 
 </body>
 </html>
